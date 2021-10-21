@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainFragment"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_page2"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:textStyle="normal"
+
+                android:text="Choose Account Type"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/shopkepper"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="150dp">
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/shopkeeper" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/customer"
+
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="150dp">
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/customer" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="425dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="15dp"
+                    android:src="@mipmap/ic_mail">
+
+                </ImageView>
+            </LinearLayout>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="425dp"
+                android:hint="Email"
+                android:textColor="@color/black"
+
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="497dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/pass"
+                    android:layout_width="35dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@mipmap/ic_pass" />
+
+                <EditText
+                    android:id="@+id/password_edit_txt"
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="25dp"
+                    android:hint="Password"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="575dp"
+
+                android:layout_marginEnd="15dp"
+                android:text="No account? Signup"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="575dp"
+                android:layout_marginRight="30dp"
+                android:text="Login"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

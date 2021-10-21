@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488364427037",
+    "project_id": "home-easy-671bf",
+    "storage_bucket": "home-easy-671bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488364427037:android:6c3359e491430de8bb43f4",
+        "android_client_info": {
+          "package_name": "com.example.home_easy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488364427037-jofcreqfetm97g42ltqoa72n7bicrs99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNABeM5_Y2GByI1IeCew_NHqHuhispbWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488364427037-jofcreqfetm97g42ltqoa72n7bicrs99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

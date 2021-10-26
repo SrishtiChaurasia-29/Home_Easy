@@ -34,30 +34,53 @@
                 android:id="@+id/shopkepper"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp">
 
                 <ImageView
+                    android:background="@color/white"
                     android:layout_width="170dp"
                     android:layout_height="170dp"
-                    android:src="@drawable/shopkeeper" />
+                    android:src="@drawable/shopkeeper"
+
+                    />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Register as Shopkeeper"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/sunday"/>
 
 
             </androidx.cardview.widget.CardView>
 
 
             <androidx.cardview.widget.CardView
+                android:backgroundTint="@color/white"
                 android:id="@+id/customer"
 
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                android:layout_marginLeft="210dp"
+                android:layout_marginLeft="200dp"
                 android:layout_marginTop="150dp">
 
                 <ImageView
                     android:layout_width="170dp"
                     android:layout_height="150dp"
+                    android:background="@color/white"
                     android:src="@drawable/customer" />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Register as Customer"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/sunday"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -83,7 +106,7 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="425dp"
                 android:hint="Email"
-                android:textColor="@color/black"
+                android:textColorHint="@color/black"
 
                 android:textSize="25dp" />
 
@@ -107,20 +130,23 @@
                     android:layout_height="50dp"
                     android:layout_marginEnd="25dp"
                     android:hint="Password"
-                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
                     android:textSize="25dp" />
 
 
             </LinearLayout>
 
             <TextView
+                android:id="@+id/signup"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginStart="15dp"
+                android:gravity="center"
+
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="575dp"
 
-                android:layout_marginEnd="15dp"
-                android:text="No account? Signup"
+                android:layout_marginEnd="50dp"
+                android:text="No account? Register Up"
                 android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="italic" />
@@ -129,9 +155,13 @@
                 android:id="@+id/login"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginLeft="270dp"
-                android:layout_marginTop="575dp"
-                android:layout_marginRight="30dp"
+                android:layout_below="@+id/signup"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/design"
+                android:gravity="center"
                 android:text="Login"
                 android:textSize="15dp"
                 android:textStyle="bold" />

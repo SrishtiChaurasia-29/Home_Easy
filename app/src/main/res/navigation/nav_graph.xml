@@ -20,10 +20,18 @@
         android:id="@+id/shopkeeperFragment2"
         android:name="com.example.home_easy.ShopkeeperFragment"
         android:label="fragment_shopkeeper"
-        tools:layout="@layout/fragment_shopkeeper" />
+        tools:layout="@layout/fragment_shopkeeper" >
+        <action
+            android:id="@+id/action_shopkeeperFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
     <fragment
         android:id="@+id/customerFragment"
         android:name="com.example.home_easy.CustomerFragment"
         android:label="fragment_customer"
-        tools:layout="@layout/fragment_customer" />
+        tools:layout="@layout/fragment_customer" >
+        <action
+            android:id="@+id/action_customerFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>

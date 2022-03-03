@@ -18,6 +18,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+            />
+        <activity android:name=".customermainactivity"/>
         <activity
             android:name=".spalshscreen"
             android:exported="true">
